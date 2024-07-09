@@ -18,8 +18,8 @@
 #SBATCH --cpus-per-task=1
 
 # Redirect output
-#SBATCH --output=/home/csmail/err.log/vcf_to_bed.prs.out-%j.txt
-#SBATCH --error=/home/csmail/err.log/vcf_to_bed.prs.err-%j.txt
+#SBATCH --output=/path/to/err.log/vcf_to_bed.prs.out-%j.txt
+#SBATCH --error=/path/to/err.log/vcf_to_bed.prs.err-%j.txt
 
 # RAM
 #SBATCH --mem=64G
