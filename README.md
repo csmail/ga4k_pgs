@@ -1,13 +1,14 @@
 # GA4K polygenic score paper code
 
-Scripts are provided to calculate and aggregate polygenic scores (PGS) for a given set of individuals, perform QC, and run regression modeling with permutation testing for rare disease case/control cohorts.
+Scripts are provided to calculate and aggregate polygenic scores (PGS) for a given set of individuals, perform QC, and run regression modeling with permutation testing for rare disease (HPO) case/control cohorts.
 
 # Resource availability
 * GA4K data is available via dbGAP using accession number phs002206.v5.p1 and AnVIL at https://anvilproject.org/data/studies/phs002206
 * Polygenic scores are available from PGS Catalog at https://www.pgscatalog.org/
-* Gene annotations are available from GENCODE (version 26) at https://www.gencodegenes.org/human/release_26.html
 
 # Pipeline
+
+Scripts are designed for parallel processing in a cluster environment. See `job_submit_slurm.sh` for an example job submission scripts using Slurm Workload Manager.
 
 **1. Calculating and post-processing polygenic scores**
 
