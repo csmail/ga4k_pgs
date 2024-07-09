@@ -8,7 +8,7 @@ Scripts are provided to calculate and aggregate polygenic scores (PGS) for a giv
 
 # Pipeline
 
-Scripts are designed for parallel processing in a cluster environment. See `job_submit_slurm.sh` for an example job submission scripts using Slurm Workload Manager.
+Scripts are designed for parallel processing in a cluster environment. See `job_submit_slurm.sh` for an example job submission script using Slurm Workload Manager.
 
 **1. Calculating and post-processing polygenic scores**
 
